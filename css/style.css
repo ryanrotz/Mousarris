@@ -1,0 +1,124 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.navbar, h1, h2, h3, h4, h5 {
+  font-family: 'Nunito', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+}
+
+.navbar {
+  background-color: #403F3B;
+}
+
+body {
+  font-family:'Alegreya', Times, serif;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+
+
+.hero {
+/*  background-image: url(../img/Table1/hero-image.jpg);
+  background-size: cover;
+  height: 1000px;
+  width: 100%*/
+/*  padding: 0px;*/
+}
+
+#hero-img {
+
+}
+.hero-image {
+  width: 100%;
+ /* padding: 0px;*/
+  position: relative;
+  margin-top: 0;
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+
+#hero-text {
+  /*text-align: right;*/
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  width: 100%;
+  color: white;
+}
+
+.caro {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.works {
+
+}
+
+#carousel-example-generic {
+  height: 309px;
+}
+
+.btn {
+ font-family: Arial;
+ color: #ffffff ;
+ font-size: 16px;
+ background: #403f3b ;
+ padding: 10px 20px 10px 20px;
+ text-decoration: none;
+ margin-top: 10px;
+}
+
+.btn:hover {
+ background: #61605c ;
+ text-decoration: none;
+}
+
+.works {
+  background-color: #1F1E1C;
+  height: 56px;
+  color: white;
+}
+
+h4 {
+  padding-top: 10px;
+}
+
+.works h3 {
+  position: relative;
+}
+
+@media (min-width: 950px) {
+  .short {
+    height: 20vw;
+    overflow-y: hidden;
+  }
+}
+
+.caroimg {
+  max-height: 300px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: #403F3B;
+  color: white;
+}
+
+.centerstuff {
+  padding-top: 20px;
+  text-align: left;
+  list-style-type: none;
+}

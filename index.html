@@ -3,9 +3,171 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Nunito:400,700,300|Alegreya' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>Hello Front-End</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+
+<div class="container-fluid">
+  <!-- HEADER nav -->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Mousarris</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Works <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+  <!-- Hero image section -->
+  <div class="hero row no-gutter">
+
+    <div class="col-xs-12"">
+      <img id="hero-img" class="hero-image" src="img/Table1/hero-image2.png">
+          <div id="hero-text"><h2>Mousarris</h2>
+          </div>
+    </div>
+  </div>
+
+<!-- col-md-3 col-md-offset-9 col-xs-4 col-xs-offset-7 -->
+
+
+<!-- Carousel section -->
+<div class="row caro">
+
+<div class="col-xs-12 col-md-6">
+  <h1>Wave City Coffee Table</h1>
+  <p>Inspired by a film this table is a well balanced mixture of wood, steel and 3D printed technology.</p>
+  <p>Dimensions:<br>
+  100 cm x 50 cm x 45cm</p>
+  <p>A limited edition piece.</p>
+  <p><strong>Price: </strong>€8500 Including shipping<br>
+  You can place your order in the contact tab.</p>
+
+  <button class="btn btn-default">Buy Now</button>
+
+</div>
+
+  <div id="carousel-example-generic" class="col-xs-12 col-md-6 carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+  </ol>
+   <!-- Wrapper for slides -->
+   <div class="carousel-inner" role="listbox">
+     <div class="item active">
+       <img class="img-responsive caroimg" src="img/Table1/front-face.png" alt="">
+     </div>
+
+     <div class="item">
+       <img class="img-responsive caroimg" src="img/Table1/corner-view.png" alt="">
+     </div>
+
+     <div class="item">
+       <img class="img-responsive caroimg" src="img/Table1/side-view.png" alt="">
+     </div>
+
+     <div class="item">
+       <img class="img-responsive caroimg" src="img/Table1/hero-image.jpg" alt="">
+     </div>
+
+     <div class="item">
+       <img class="img-responsive caroimg" src="img/Table1/side-view2.jpg" alt="">
+     </div>
+   </div>
+
+   <!-- Controls -->
+   <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+     <span class="sr-only">Previous</span>
+   </a>
+   <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+     <span class="sr-only">Next</span>
+   </a>
+  </div>
+</div>
+
+  <!-- Other products section -->
+  <div class="products works">
+
+    <div class="row">
+    <div class="col-xs-12 works"><h4>Mousarris Works</h4></div>
+  </div>
+
+  <div class="row no-gutter">
+    <div class="short col-xs-12 col-md-6"><img class="img-responsive" src="img/CroppedImages/RocketTable.jpg"></div>
+    <div class="short col-xs-6 col-md-3"><img class="img-responsive" src="img/CroppedImages/BlkCouch1A.jpg"></div>
+    <div class="short col-xs-6 col-md-3"><img class="img-responsive" src="img/CroppedImages/Chair4.png"></div>
+  </div>
+
+   <div class="row no-gutter">
+    <div class="short col-xs-6 col-md-3"><img class="img-responsive" src="img/CroppedImages/Chair1.png"></div>
+    <div class="short col-xs-6 col-md-3"><img class="img-responsive" src="img/CroppedImages/Chair3.png"></div>
+    <div class="short col-xs-12 col-md-6"><img class="img-responsive" src="img/CroppedImages/Table2.jpg"></div>
+  </div>
+
+  <div class="row no-gutter">
+    <div class="short col-xs-12 col-md-6"><img class="img-responsive" src="img/CroppedImages/Table2.jpg"></div>
+    <div class="short col-xs-12 col-md-6"><img class="img-responsive" src="img/CroppedImages/Chair2.png"></div>
+  </div>
+
+  </div>
+
+  <!-- About the artist section -->
+  <div class="about">
+
+  </div>
+
+</div>  <!-- ending div for container fluid div -->
+
+  <!-- FOOTER -->
+  <footer class="footer">
+  <div class="container-fluid">
+  <div class="row-fluid span12">
+    <ul class="centerstuff">
+      <li>st.mousarris@gmail.com</li>
+      <li>Tel: +35799881723</li>
+      <li>Larnaca, Cyprus</li>
+    </ul>
+  </div>
+  </div>
+  </footer>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
+
+
+
